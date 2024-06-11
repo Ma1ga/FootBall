@@ -27,7 +27,7 @@ body {
 }
 .name {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 .name .flex img {
     
@@ -142,4 +142,38 @@ main img {
     font-size: 14px;
     line-height: 7px;
     color: #ffffff;
+}
+
+@media screen and (min-width: 320px){
+.header {
+    
+    display: flex;
+flex-direction: column;
+    max-width: 960px;
+}
+.about {
+    width: 100%;
+}
+img {
+object-fit: cover;
+}
+.partners {
+    width: 100%;
+}
+.main-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.name  {
+flex-direction: column;  
+}
+
+}
+@media screen and (min-width: 425px) {
+    .name {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }
