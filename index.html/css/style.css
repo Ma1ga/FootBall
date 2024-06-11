@@ -154,7 +154,9 @@ flex-direction: column;
 .about {
     width: 100%;
 }
-img {
+.main img {
+object-position: 70%;
+height: 300px;
 object-fit: cover;
 }
 .partners {
@@ -176,4 +178,11 @@ flex-direction: column;
         flex-direction: row;
         align-items: center;
     }
+}
+@media screen and (min-width: 768px) {
+.header {
+display: flex;
+flex-direction: row;
+}
+
 }
