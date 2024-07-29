@@ -90,7 +90,9 @@ text-decoration: none;
     color: #39930d;
 
 }
-
+main {
+    margin-bottom: 46px;
+}
 main img {
     width: 100%;
 
@@ -138,7 +140,7 @@ main img {
 .footer p {
     display: flex;
     align-items: center;
-    padding: 22px 0 14px 16rem;
+    padding: 19px 0 18px 16rem;
     font-size: 14px;
     line-height: 7px;
     color: #ffffff;
