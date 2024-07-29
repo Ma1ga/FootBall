@@ -60,6 +60,8 @@ body {
 .name b {
     font-size: 44px;
     display: block;
+    padding: 12px 0px;
+    line-height: 44px;
 }
 
 i {
