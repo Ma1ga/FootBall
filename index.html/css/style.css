@@ -133,6 +133,9 @@ main img {
     color: #39930d;
     list-style: none;
 }
+.partners ul li a:hover {
+    color: #0af748;
+}
 
 
 .footer {
